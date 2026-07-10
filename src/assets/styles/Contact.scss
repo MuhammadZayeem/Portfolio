@@ -18,14 +18,42 @@
     color: white;
   }
 
-  fieldset {
+  /* STYLE INPUT FIELDS */
+  .MuiOutlinedInput-root {
     background-color: white;
+  }
+
+  .MuiInputBase-input {
+    color: #000 !important;
+    font-size: 16px;
+  }
+
+  input {
+    color: #000 !important;
+  }
+
+  textarea {
+    color: #000 !important;
+  }
+
+  .MuiInputBase-input::placeholder {
+    color: #999 !important;
+    opacity: 1 !important;
+  }
+
+  fieldset {
+    border-color: #ccc !important;
+  }
+
+  .MuiOutlinedInput-root:hover fieldset {
+    border-color: #999 !important;
   }
 }
 
 label {
   font-size: 1.2rem;
   font-family: 'DomaineDispNar-Medium', sans-serif;
+  color: #333 !important;
 }
 
 .form-flex {
